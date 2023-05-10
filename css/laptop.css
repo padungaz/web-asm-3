@@ -1,0 +1,299 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-weight: 600 !important;
+    font-size: 22px !important;
+}
+
+p,
+span,
+li,
+td {
+    font-weight: 300;
+    color: grey;
+}
+
+.cl {
+    color: #000;
+}
+
+.bg-grey {
+    background-color: #f7f7f7;
+}
+
+.bg-grey2 {
+    background-color: #cbc5c5;
+}
+
+.bg-deepskyblue {
+    background-color: deepskyblue;
+}
+
+.p-bg-deepskyblue {
+    background-color: deepskyblue;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.fs-14 {
+    font-size: 12px;
+}
+
+i {
+    color: deepskyblue;
+}
+
+a {
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    color: #000 !important;
+}
+
+.tt-uppercase {
+    text-transform: uppercase
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+#banner {
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+    background-image: linear-gradient(0, rgba(21, 21, 21, 0.695), rgba(55, 53, 53, 0.5)), url(../images/banner.jpg);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.avatar {
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 50%;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.avatar-img {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+
+.flex-content {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 15px
+}
+
+.hr {
+    color: rgb(192, 190, 190);
+    background-color: rgb(192, 190, 190);
+    height: 100%;
+    width: 1px;
+}
+
+.hr-responsive {
+    display: none;
+}
+
+.about {
+    display: flex
+}
+
+.content-item {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 25px;
+    padding: 0;
+}
+
+.info>li {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.info>li>span {
+    font-weight: bold;
+    color: #000;
+}
+
+.target {
+    flex: 1;
+    padding: 50px 40px 30px 40px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.target:hover {
+    background-color: #c0baba;
+}
+
+.target-curent {
+    background-color: #e0dede;
+}
+
+.job-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 30px 12%;
+    justify-items: center;
+}
+
+.job-info-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.job-info-title {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    align-items: end;
+    margin-bottom: 26px;
+}
+
+
+.job-info-content>ul {
+    padding: 20px;
+}
+
+.job-info-content>ul>li {
+    margin-bottom: 30px;
+    padding-top: 0;
+    padding-left: 16px;
+    line-height: 1.5;
+}
+
+.job-info-content>ul>li::marker {
+    color: deepskyblue;
+}
+
+.telescopes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.level {
+    display: flex;
+    gap: 10px;
+    margin: 6px 0 20px 0;
+}
+
+.point {
+    width: 45px;
+    height: 2px;
+    border-radius: 8px;
+}
+
+.certificate-container {
+    padding: 40px 12%;
+}
+
+.certificate-content {
+    margin-top: 30px;
+}
+
+.certificate-flex {
+    flex: 1;
+    display: flex;
+    gap: 14px;
+}
+
+.img-Cert_DBI {
+    text-align: center;
+    width: 200px;
+    height: inherit;
+}
+
+.certificate-content-item {
+    display: flex;
+    border-bottom: 2px solid #d6c08d;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.item-right {
+    border-left: 2px solid #d6c08d;
+    padding-left: 20px;
+}
+
+.project {
+    padding: 40px 12%;
+    width: 100%;
+}
+
+.project-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 30px;
+}
+
+.project-table {
+    border: 1px solid #ccc;
+}
+
+.img-project {
+    width: 100%;
+    margin-bottom: -3px;
+}
+
+.table {
+    width: auto;
+    border-collapse: collapse;
+}
+
+tr {
+    border-top: 1px solid #ccc !important;
+}
+
+.tb-header {
+    padding: 20px;
+}
+
+.td-index {
+    width: 25%;
+    vertical-align: top;
+    padding: 5px 0 20px 5px;
+}
+
+.td-content {
+    width: 75%;
+    vertical-align: top;
+    padding: 5px 0 20px 5px;
+}
+
+#footer {
+    padding: 30px 0;
+}

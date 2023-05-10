@@ -1,0 +1,55 @@
+@media only screen and (min-width:600px) and (max-width:768px) {
+
+    .avatar-img {
+        display: none;
+    }
+
+    .hr-responsive {
+        display: block;
+        color: rgb(192, 190, 190);
+        background-color: rgb(192, 190, 190);
+        height: 100%;
+        width: 1px;
+    }
+
+    .job-info {
+        display: block;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding: 30px 5%;
+    }
+
+    .job-info-content {
+        margin-bottom: 30px;
+        display: inline-block;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .certificate-container {
+        padding: 40px 5%;
+    }
+
+    .certificate-flex {
+        flex: 1;
+        display: block;
+        gap: 14px;
+    }
+
+
+    .img-Cert_DBI {
+        text-align: center;
+        width: 250px;
+        height: inherit;
+    }
+
+    .project {
+        padding: 40px 5%;
+        width: 100%;
+    }
+
+    .d-flex.project-responsive {
+        display: block !important;
+    }
+}
